@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Ana's Portfolio</title>
-        <link rel="stylesheet" href="/static/css/portfolio.css">
-    </head>
-    <body>
+{% extends "base.html" %}
+
+{% block title %}Ana's Portfolio{% endblock title %}
+
+
+{% block content %}
         <h1>My portfolio</h1>
         <p>
             This is my <a href="/portfolio/boogle">Boogle</a>
@@ -13,6 +11,8 @@
             This is my <a href="/portfolio/fakebook">Fakebook</a>
             <br>
             This is my <a href="/portfolio/hair-salon">Hair Salon</a>
+            <br>
+            <br>
+            <a href="/">Home</a>
         </p>
-    </body>
-</html>
+{% endblock content %}

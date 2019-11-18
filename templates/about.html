@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>About me</title>
-        <link rel="stylesheet" href="/static/css/about.css">
-    </head>
-    <body>
-        <h1>My names is Ana Escarzaga</h1>
-    </body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}About me{% endblock title %}
+
+{% block content %}
+    <h1>My names is Ana Escarzaga</h1>
+    <a href="/">Home</a>
+{% endblock content %}
+
